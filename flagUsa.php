@@ -15,7 +15,7 @@
 		$stars = '<img  src="star.png" alt="Image" width="13" height="13" />'; ?>
 		<?php for ($i = 0; $i < 55; $i++) : ?>
 			<span>
-				<?php echo ($stars); ?>
+				<?php print ($stars); ?>
 			<?php endfor; ?>
 			</span>
 	</div>
