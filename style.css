@@ -1,0 +1,22 @@
+.stars{
+    position: absolute;
+     width: 150px;
+     height: 108px;
+     padding: 3px;
+     background: darkblue;
+     top: 17px;
+     left: 9px;
+ }
+ .flag{
+     
+     width:500px;
+     height: 300px;
+     border: none;
+ }
+ .V_flag{
+    background:red; 
+    height:25px;
+    border-top: solid white 8px;
+    border-bottom: solid white 8px;
+
+ }
