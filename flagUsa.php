@@ -13,8 +13,8 @@
 	<div class="stars">
 		<?php
 		$stars = '<img  src="star.png" alt="Image" width="13" height="13" />'; ?>
-		<?php for ($i = 0; $i < 55; $i++) : ?>
-			<span>
+		<?php for ($i = 0; $i < 49; $i++) : ?>
+			 <span style="position: fixed; left: <?php  print(rand(5, 140)); ?>; top: <?php print(rand(15, 105)); ?>;">
 				<?php print ($stars); ?>
 			<?php endfor; ?>
 			</span>
